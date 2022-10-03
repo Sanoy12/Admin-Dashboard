@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <title>Admin Dashboard</title>
+  <style>
+    .dash {
+      font-size: 2rem;
+      position: relative;
+      bottom: 13px;
+    }
+
+    .logo-container {
+      display: inline;
+      color: #ffffff;
+    }
+
+    #dash {
+      font-size: 48px;
+      color: #ffffff;
+      padding-top: 20px;
+      padding-bottom: 50px;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="top">
+        <!-- <span>a</span>
+          <span>Why are you hurting me</span> -->
+        <div class="top-left">
+          <a href=""><i class="material-icons">search</i></a>
+          <span><input type="text" name="search" id="search" placeholder="search..." /></span>
+        </div>
+
+        <div class="top-right">
+          <a href=""><i class="material-icons notn">notifications_active</i></a>
+          <a href=""><span><img src="./admin.jpg" alt="" /></span>
+          </a>
+          <a href=""><span>Morgan Oakley</span></a>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="bottom-left">
+          <div class="profile-bottom">
+            <a href=""><span><img src="./admin.jpg" alt="" class="img-pro"/></span>
+            </a>
+          </div>
+          <div class="profile">
+            <h5>Hi,there</h5>
+            <h3>john doe(@john)</h3>
+          </div>
+        </div>
+        <div class="bottom-right">
+          <button>New</button>
+          <button>upload</button>
+          <button>Share</button>
+        </div>
+      </div>
+      <!-- <div class="header-top">
+          <div class="header-left">
+            <i class="material-icons">search</i>
+            <span><input type="text" name="" id="" /></span>
+          </div>
+          <div>
+            <i class="material-icons">notifications_active</i>
+            <a href=""><span><img src="./admin.jpg" alt=""></span></a>
+           <a href="">Morgan Oakley</span></a> <span>
+          </div>
+        </div> -->
+    </div>
+    <div class="side-bar">
+      <div class="logo-container">
+        <li>
+          <i class="material-icons" id="dash">dashboard</i>
+          <span class="dash">Dashboard</span>
+        </li>
+      </div>
+      <ul class="side-contents">
+        <li class="side">
+          <i class="material-icons">home</i>
+          <a href=""><span>Home</span></a>
+        </li>
+        <li class="side">
+          <i class="material-icons">person</i>
+          <a href=""><span>Profile</span></a>
+        </li>
+        <li class="side">
+          <i class="material-icons">mail</i>
+          <a href=""><span>Messages</span></a>
+        </li>
+
+        <li class="side">
+          <i class="material-icons">history</i>
+          <a href=""><span>History</span></a>
+        </li>
+        <li class="side">
+          <i class="material-icons">groups</i>
+          <a href=""><span>Communities</span></a>
+        </li>
+      </ul>
+
+      <ul class="bottom-side">
+        <li class="side">
+          <i class="material-icons">settings</i>
+          <a href=""><span>Settings</span></a>
+        </li>
+        <li class="side">
+          <i class="material-icons">help_outline</i>
+          <a href=""><span>Support</span></a>
+        </li>
+        <li class="side">
+          <i class="material-icons">verified_user</i>
+          <a href=""><span>Privacy</span></a>
+        </li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <div class="header-two">
+        <div>
+          <h2 class="your-projects">Your Projects</h2>
+        </div>
+        <div>
+          <h2 class="announ">Announcement</h2>
+        </div>
+      </div>
+      <div class="main">
+        <div class="cards">
+          <div class="card">
+            <div>
+              <h2>Super Cool Project</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsa dolorem ipsam nemo omnis animi nihil assumenda adipisci exercitationem facere commodi cumque totam officiis quis minus reiciendis ducimus, quasi facilis?</p>
+            </div>
+            <div class="icons-cont">
+              <div>
+                <span class="material-symbols-outlined" >
+                  thumb_up
+                  </span>
+              </div>
+              <div>
+                <span class="material-symbols-outlined" >
+                  visibility
+                  </span>
+              </div>
+                
+                <span class="material-symbols-outlined" >
+                  share
+                  </span>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <h2>Super Cool Project</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsa dolorem ipsam nemo omnis animi nihil assumenda adipisci exercitationem facere commodi cumque totam officiis quis minus reiciendis ducimus, quasi facilis?</p>
+            </div>
+            <div class="icons-cont">
+              <div>
+                <span class="material-symbols-outlined" >
+                  thumb_up
+                  </span>
+              </div>
+              <div>
+                <span class="material-symbols-outlined" >
+                  visibility
+                  </span>
+              </div>
+                
+                <span class="material-symbols-outlined" >
+                  share
+                  </span>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <h2>Super Cool Project</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsa dolorem ipsam nemo omnis animi nihil assumenda adipisci exercitationem facere commodi cumque totam officiis quis minus reiciendis ducimus, quasi facilis?</p>
+            </div>
+            <div class="icons-cont">
+              <div>
+                <span class="material-symbols-outlined" >
+                  thumb_up
+                  </span>
+              </div>
+              <div>
+                <span class="material-symbols-outlined" >
+                  visibility
+                  </span>
+              </div>
+                
+                <span class="material-symbols-outlined" >
+                  share
+                  </span>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <h2>Super Cool Project</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsa dolorem ipsam nemo omnis animi nihil assumenda adipisci exercitationem facere commodi cumque totam officiis quis minus reiciendis ducimus, quasi facilis?</p>
+            </div>
+            <div class="icons-cont">
+              <div>
+                <span class="material-symbols-outlined" >
+                  thumb_up
+                  </span>
+              </div>
+              <div>
+                <span class="material-symbols-outlined" >
+                  visibility
+                  </span>
+              </div>
+                
+                <span class="material-symbols-outlined" >
+                  share
+                  </span>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <h2>Super Cool Project</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsa dolorem ipsam nemo omnis animi nihil assumenda adipisci exercitationem facere commodi cumque totam officiis quis minus reiciendis ducimus, quasi facilis?</p>
+            </div>
+            <div class="icons-cont">
+              <div>
+                <span class="material-symbols-outlined" >
+                  thumb_up
+                  </span>
+              </div>
+              <div>
+                <span class="material-symbols-outlined" >
+                  visibility
+                  </span>
+              </div>
+                
+                <span class="material-symbols-outlined" >
+                  share
+                  </span>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <h2>Super Cool Project</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsa dolorem ipsam nemo omnis animi nihil assumenda adipisci exercitationem facere commodi cumque totam officiis quis minus reiciendis ducimus, quasi facilis?</p>
+            </div>
+            <div class="icons-cont">
+              <div>
+                <span class="material-symbols-outlined" >
+                  thumb_up
+                  </span>
+              </div>
+              <div>
+                <span class="material-symbols-outlined" >
+                  visibility
+                  </span>
+              </div>
+                
+                <span class="material-symbols-outlined" >
+                  share
+                  </span>
+            </div>
+          </div>
+        </div>
+        <div class="announcement">
+          <div class="an">
+          <div>
+            <h4>Site Maintenance</h4>
+            <p class="annct last">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error mollitia nihil at praesentium..</p>
+          </div>
+          <div>
+            <h4>Community share day</h4>
+            <p class="annct last">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum magni.</p>
+          </div>
+          <div>
+            <h4>Updated privacy policy</h4>
+            <p class="annct final">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, voluptas?</p>
+          </div>
+        </div>
+        <h2 class="trend">Trending</h2>
+          <div class="ce">
+            <div class="user">
+              <div>
+                <img src="./admin.jpg" alt="">
+              </div>
+              <div>
+                <p class="he-ad">@mrpeabody</p>
+                <P>Thats Cool!</P>
+              </div>
+            </div>
+              <div class="user">
+                <div>
+                  <img src="./admin.jpg" alt="">
+                </div>
+                <div>
+                <p class="he-ad">@sherman</p>
+                  <P>Thats Cool!</P>
+                </div>
+              </div>
+              <div class="user">
+                <div>
+                  <img src="./admin.jpg" alt="">
+                </div>
+                <div>
+                  <p class="he-ad">@penny</p>
+                  <P>Thats Cool!</P>
+                </div>
+              </div>
+              <div class="user">
+                <div>
+                  <img src="./admin.jpg" alt="">
+                </div>
+                <div>
+                  <p class="he-ad">@agamemnon</p>
+                  <P>Thats Cool!</P>
+                </div>
+              </div>
+        </div>
+      </div>
+  </div>
+</body>
+
+</html>
